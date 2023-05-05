@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { BiLike } from "react-icons/bi";
-import { FiSearch } from "react-icons/fi";
+import { AiFillLike, AiFillDislike } from "react-icons/ai";
 import data from "../data.json";
-import { FcLikePlaceholder, FcLike } from "react-icons/fc";
 
 const ImageGallery = () => {
   //for search
@@ -11,7 +9,7 @@ const ImageGallery = () => {
     setFilter(event.target.value.toLowerCase());
   };
 
-  const filteredData = filter
+  const filteredCelestialObjects = filter
     ? data.filter(
         (item) =>
           item.name.toLowerCase().includes(filter) ||
@@ -25,9 +23,9 @@ const ImageGallery = () => {
         <div className="max-w-[50px] max-h-[50px] overflow-hidden rounded-full ml-10  ">
           <img src="https://celestialbody.com/wp-content/uploads/2017/09/logowhite.jpg" />
         </div>
+        g
         <div className="w-full text-center">
           <div>
-            {/* <i className="fa fa-search "></i> */}
             <input
               type="text"
               className=" sm:w-1/2 md:w-1/2 px-7 rounded-sm py-3  "
@@ -41,22 +39,21 @@ const ImageGallery = () => {
       <div className="container mx-auto px-5">
         <h1 className="text-4xl font-bold mb-8 text-center">Cosmic Gallery</h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
-          {filteredData.map((item, index) => {
+          {filteredCelestialObjects.map((item, index) => {
             return (
               <div
                 key={index}
-                className="relative rounded-sm showDescription"
+                className="relative  shadow-lg showDescription "
                 title={item.name}
               >
                 <div className="relative">
-                  <img src={item.image} alt={item.name} />
+                  <img src={item.image} alt={item.name} className="w-full" />
                   <div className="absolute top-0 left-0 w-full h-full bg-slate-400 opacity-0 transition-opacity duration-300 hover:opacity-30"></div>
                 </div>
                 <div className="absolute  text-red-500 text-2xl top-2 right-2 likeButton">
-                <LikeButton itemId={item.id}/>
+                  <LikeButton id={item.id} />
                 </div>
                 <div className="px-3 py-1">
-
                   <p className="image-description">{item.description}</p>
                 </div>
               </div>
@@ -68,18 +65,12 @@ const ImageGallery = () => {
   );
 };
 
-
-
-
-
-
 export default ImageGallery;
-
 
 const LikeButton = ({ itemId }) => {
   const [liked, setLiked] = useState(() => {
     const storedLiked = localStorage.getItem(`liked_${itemId}`);
-    return storedLiked === 'true';
+    return storedLiked === "true";
   });
 
   useEffect(() => {
@@ -87,12 +78,12 @@ const LikeButton = ({ itemId }) => {
   }, [itemId, liked]);
 
   const toggleLiked = () => {
-    setLiked(prevLiked => !prevLiked);
+    setLiked((prevLiked) => !prevLiked);
   };
 
   return (
     <button onClick={toggleLiked}>
-      {liked ? <FcLike /> : <FcLikePlaceholder />}
+      {liked ? <AiFillLike /> : <AiFillDislike />}
     </button>
   );
 };

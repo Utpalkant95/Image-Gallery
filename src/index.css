@@ -3,8 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* //////////////////////////////////////////////////// */
+/* Image Gallery Css  */
 
+
+html{
+  scroll-behavior: smooth;
+}
 .image-description, .likeButton {
   display: none;
 }

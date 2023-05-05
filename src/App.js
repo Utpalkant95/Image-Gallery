@@ -1,4 +1,3 @@
-
 import "./App.css";
 import ImageGallery from "./Component/imageGallery";
 
