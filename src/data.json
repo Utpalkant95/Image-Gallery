@@ -246,14 +246,14 @@
       "description": "The Horsehead Nebula is a dark nebula located in the constellation Orion. It gets its name from its distinct shape, resembling the head of a horse. The nebula is a site of ongoing star formation and is illuminated by nearby bright stars."
     },
     {
-      "id" : 35,
+      "id" : 36,
       "name": "Betelgeuse",
       "category": "star",
       "image": "https://images.unsplash.com/photo-1498611291069-aa296192f1e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fEJldGVsZ2V1c2UlMjBzdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "description": "Betelgeuse is a red supergiant star located in the constellation Orion. It is one of the largest known stars and is nearing the end of its life. Betelgeuse is known for its variability in brightness and is expected to explode as a supernova in the future."
     },
     {
-      "id" : 36,
+      "id" : 37,
       "name": "Mercury",
       "category": "planet",
       "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVyY3VyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",

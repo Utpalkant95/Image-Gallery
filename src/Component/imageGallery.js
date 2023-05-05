@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { AiFillLike, AiFillDislike } from "react-icons/ai";
 import data from "../data.json";
+import LikeButton from "./LikeButton";
 
 const ImageGallery = () => {
   //for search
@@ -43,17 +43,17 @@ const ImageGallery = () => {
             return (
               <div
                 key={index}
-                className="relative  shadow-lg showDescription "
+                className="relative  shadow-lg showDescription h-[410px]"
                 title={item.name}
               >
                 <div className="relative">
-                  <img src={item.image} alt={item.name} className="w-full" />
+                  <img src={item.image} alt={item.name} className="w-full h-60" />
                   <div className="absolute top-0 left-0 w-full h-full bg-slate-400 opacity-0 transition-opacity duration-300 hover:opacity-30"></div>
                 </div>
                 <div className="absolute  text-red-500 text-2xl top-2 right-2 likeButton">
-                  <LikeButton id={item.id} />
+                  <LikeButton itemId={item.id} />
                 </div>
-                <div className="px-3 py-1">
+                <div className="">
                   <p className="image-description">{item.description}</p>
                 </div>
               </div>
@@ -67,23 +67,26 @@ const ImageGallery = () => {
 
 export default ImageGallery;
 
-const LikeButton = ({ itemId }) => {
-  const [liked, setLiked] = useState(() => {
-    const storedLiked = localStorage.getItem(`liked_${itemId}`);
-    return storedLiked === "true";
-  });
 
-  useEffect(() => {
-    localStorage.setItem(`liked_${itemId}`, liked.toString());
-  }, [itemId, liked]);
 
-  const toggleLiked = () => {
-    setLiked((prevLiked) => !prevLiked);
-  };
 
-  return (
-    <button onClick={toggleLiked}>
-      {liked ? <AiFillLike /> : <AiFillDislike />}
-    </button>
-  );
-};
+// const LikeButton = ({ itemId }) => {
+//   const [liked, setLiked] = useState(() => {
+//     const storedLiked = localStorage.getItem(`liked_${itemId}`);
+//     return storedLiked ? JSON.parse(storedLiked) : false;
+//   });
+
+//   const handleLike = () => {
+//     const updatedLiked = !liked;
+//     setLiked(updatedLiked);
+//     localStorage.setItem(`liked_${itemId}`, JSON.stringify(updatedLiked));
+//   };
+
+//   return (
+//     <button onClick={handleLike}>{liked ? <FcLike /> : <FcLikePlaceholder />}</button>
+//   );
+// };
+
+
+
+
