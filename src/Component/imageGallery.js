@@ -23,7 +23,7 @@ const ImageGallery = () => {
         <div className="max-w-[50px] max-h-[50px] overflow-hidden rounded-full ml-10  ">
           <img src="https://celestialbody.com/wp-content/uploads/2017/09/logowhite.jpg" />
         </div>
-        g
+        
         <div className="w-full text-center">
           <div>
             <input
