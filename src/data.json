@@ -1,0 +1,262 @@
+[
+    {
+      "id" : 1,
+      "name": "Sirius",
+      "category": "star",
+      "image": "https://images.unsplash.com/photo-1467810160588-c86c0deb5d16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8MzgwMjYyMnx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Sirius is the brightest star in the night sky and is located in the constellation Canis Major. It is a binary star system, consisting of a main-sequence star and a white dwarf companion."
+    },
+    {
+      "id" : 2,
+      "name": "Mars",
+      "category": "planet",
+      "image": "https://images.unsplash.com/photo-1634176866089-b633f4aec882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80",
+      "description": "Mars is the fourth planet from the Sun in our solar system. It is often called the 'Red Planet' due to its reddish appearance caused by iron oxide on its surface. Mars is known for its polar ice caps and the largest volcano in the solar system, Olympus Mons."
+    },
+    {
+      "id" : 3,
+      "name": "Andromeda Galaxy",
+      "category": "galaxy",
+      "image": "https://images.unsplash.com/photo-1614926037384-4159c33e196b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8QW5kcm9tZWRhJTIwR2FsYXh5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "The Andromeda Galaxy is a spiral galaxy located about 2.537 million light-years away from Earth. It is the closest spiral galaxy to the Milky Way and is predicted to collide with our galaxy in about 4 billion years."
+    },
+    {
+      "id" : 4,
+      "name": "Sun",
+      "category": "star",
+      "image": "https://images.unsplash.com/photo-1614642264762-d0a3b8bf3700?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3VufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "The Sun is the star at the center of our solar system. It is a nearly perfect sphere of hot plasma, and its immense gravity holds the planets and other celestial objects in orbit around it."
+    },
+    {
+      "id" : 5,
+      "name": "Jupiter",
+      "category": "planet",
+      "image": "https://plus.unsplash.com/premium_photo-1677186460027-88985b9a1266?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+      "description": "Jupiter is the largest planet in our solar system and is known for its distinctive bands of clouds and the Great Red Spot—a massive storm system. It has a strong magnetic field and more than 75 known moons."
+    },
+    {
+      "id" : 6,
+      "name": "Whirlpool Galaxy",
+      "category": "galaxy",
+      "image": "https://images.unsplash.com/photo-1551495490-9e334ad2ebe9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8V2hpcmxwb29sJTIwR2FsYXh5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "The Whirlpool Galaxy, also known as Messier 51a, is a grand-design spiral galaxy located about 31 million light-years away from Earth. It is famous for its prominent spiral arms and its interaction with a smaller companion galaxy."
+    },
+    {
+      "id" : 7,
+      "name": "Vega",
+      "category": "star",
+      "image": "https://images.unsplash.com/photo-1509515837298-2c67a3933321?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8VmVnYSUyMHN0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": "Vega is the brightest star in the constellation Lyra and is the fifth-brightest star in the night sky. It is relatively close to Earth, only about 25 light-years away, and is a part of the Summer Triangle asterism."
+    },
+    {
+      "id" : 8,
+      "name": "Saturn",
+      "category": "planet",
+      "image": "https://images.unsplash.com/photo-1634176866089-b633f4aec882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80",
+      "description": "Saturn is the sixth planet from the Sun and is known for its iconic system of rings made primarily of ice particles. It has a complex atmosphere with swirling storms and a large number of moons, including the moon Titan."
+    },
+    {
+      "id" : 9,
+      "name": "Sombrero Galaxy",
+      "category": "galaxy",
+      "image": "https://images.unsplash.com/photo-1651162526698-071f19f11b92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8U29tYnJlcm8lMjBHYWxheHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": "The Sombrero Galaxy, also known as Messier 104, is a spiral galaxy located about 28 million light-years away. It gets its name from its distinct shape resembling a sombrero hat. The galaxy has a bright central bulge surrounded by a prominent dust lane."
+    },
+    {
+      "id" : 10,
+      "name": "Alpha Centauri",
+      "category": "star",
+      "image": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8QWxwaGElMjBDZW50YXVyaSUyMHN0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": "Alpha Centauri is a triple star system located about 4.37 light-years away from Earth, making it the closest star system to our solar system. It consists of three stars: Alpha Centauri A, Alpha Centauri B, and Proxima Centauri."
+    },
+    {
+      "id" : 11,
+      "name": "Sirius",
+      "category": "star",
+      "image": "https://images.unsplash.com/photo-1467810160588-c86c0deb5d16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8MzgwMjYyMnx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Sirius is the brightest star in the night sky and is located in the constellation Canis Major. It is a binary star system, consisting of a main-sequence star and a white dwarf companion."
+    
+    },
+    {
+      "id" : 12,
+      "name": "Antennae Galaxies",
+      "category": "galaxy",
+      "image": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8QW50ZW5uYWUlMjBHYWxheGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "The Antennae Galaxies, also known as NGC 4038 and NGC 4039, are a pair of interacting galaxies located about 45 million light-years away. They are undergoing a galactic collision, resulting in distorted shapes and intense star formation."
+    },
+    {
+      "id" : 13,
+      "name": "Polaris",
+      "category": "star",
+      "image": "https://plus.unsplash.com/premium_photo-1673298489609-36cbdf46f686?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8UG9sYXJpcyUyMHN0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": "Polaris, also known as the North Star or Pole Star, is the brightest star in the constellation Ursa Minor. It is famous for being a reliable navigational aid, as it approximately aligns with the Earth's axis of rotation and appears nearly stationary in the night sky."
+    },
+    {
+      "id" : 14,
+      "name": "Uranus",
+      "category": "planet",
+      "image": "https://images.unsplash.com/photo-1614732484003-ef9881555dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXJhbnVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Uranus is the seventh planet from the Sun and is known for its unique feature: it rotates on its side. It is a gas giant similar in composition to Neptune and has a bluish-green appearance due to the presence of methane in its atmosphere. Uranus has a system of rings and numerous moons."
+    },
+    {
+      "id" : 15,
+      "name": "Horsehead Nebula",
+      "category": "nebula",
+      "image": "https://images.unsplash.com/photo-1605704311533-443f1f58874f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8SG9yc2VoZWFkJTIwTmVidWxhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "The Horsehead Nebula is a dark nebula located in the constellation Orion. It gets its name from its distinct shape, resembling the head of a horse. The nebula is a site of ongoing star formation and is illuminated by nearby bright stars."
+    },
+    {
+      "id" : 16,
+      "name": "Betelgeuse",
+      "category": "star",
+      "image": "https://images.unsplash.com/photo-1498611291069-aa296192f1e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fEJldGVsZ2V1c2UlMjBzdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Betelgeuse is a red supergiant star located in the constellation Orion. It is one of the largest known stars and is nearing the end of its life. Betelgeuse is known for its variability in brightness and is expected to explode as a supernova in the future."
+    },
+    {
+      "id" : 17,
+      "name": "Mercury",
+      "category": "planet",
+      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVyY3VyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Mercury is the smallest planet in our solar system and the closest to the Sun. It has a rocky surface and no substantial atmosphere. Due to its proximity to the Sun, Mercury experiences extreme temperature variations between its scorching dayside and freezing nightside."
+    },
+    {
+      "id" : 18,
+      "name": "Whale Galaxy",
+      "category": "galaxy",
+      "image": "https://images.unsplash.com/photo-1504333638930-c8787321eee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2hhbGUlMjBnYWxheHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": "The Whale Galaxy, also known as NGC 4631, is a spiral galaxy located about 30 million light-years away in the constellation Canes Venatici. It gets its name from its shape resembling a whale. The galaxy is known for its prominent dust lanes and active star formation."
+    },
+    {
+      "id" : 19,
+      "name": "Procyon",
+      "category": "star",
+      "image": "https://images.unsplash.com/photo-1447433693259-c8549e937d62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fFByb2N5b24lMjBzdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Procyon is a binary star system located in the constellation Canis Minor. It consists of a bright main-sequence star and a faint white dwarf companion. Procyon is one of the nearest and brightest stars to Earth and is often called the 'Little Dog Star'."
+    },
+    {
+      "id" : 20,
+      "name": "Venus",
+      "category": "planet",
+      "image": "https://images.unsplash.com/photo-1614726365723-498aa67c5f7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmVudXMlMjBwbGFuZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": "Venus is the second planet from the Sun and is often referred to as Earth's 'sister planet' due to their similar size and composition. It has a thick atmosphere primarily composed of carbon dioxide, causing a runaway greenhouse effect that makes it the hottest planet in our solar system."
+    },
+    {
+      "id" : 21,
+      "name": "Crab Nebula",
+      "category": "nebula",
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y3JhYiUyMG5lYnVsYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "The Crab Nebula is a supernova remnant located in the constellation Taurus. It formed from a supernova explosion observed by humans in the year 1054. The nebula is known for its pulsar, a rapidly rotating neutron star, at its center."
+    },
+    {
+      "id" : 22,
+      "name": "Alpha Centauri",
+      "category": "star",
+      "image": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8QWxwaGElMjBDZW50YXVyaSUyMHN0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": "Alpha Centauri is a triple star system located about 4.37 light-years away from Earth, making it the closest star system to our solar system. It consists of three stars: Alpha Centauri A, Alpha Centauri B, and Proxima Centauri."
+    },
+    {
+      "id" : 23,
+      "name": "Neptune",
+      "category": "planet",
+      "image": "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVwdHVuZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Neptune is the eighth and farthest known planet from the Sun in our solar system. It is a gas giant similar in composition to Uranus, and it has a deep blue color due to the presence of methane in its atmosphere. Neptune has a system of rings and a number of moons, including Triton."
+    },
+    {
+      "id" : 24,
+      "name": "Antennae Galaxies",
+      "category": "galaxy",
+      "image": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8QW50ZW5uYWUlMjBHYWxheGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "The Antennae Galaxies, also known as NGC 4038 and NGC 4039, are a pair of interacting galaxies located about 45 million light-years away. They are undergoing a galactic collision, resulting in distorted shapes and intense star formation."
+    },
+    {
+      "id" : 25,
+      "name": "Polaris",
+      "category": "star",
+      "image": "https://plus.unsplash.com/premium_photo-1673298489609-36cbdf46f686?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8UG9sYXJpcyUyMHN0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": "Polaris, also known as the North Star or Pole Star, is the brightest star in the constellation Ursa Minor. It is famous for being a reliable navigational aid, as it approximately aligns with the Earth's axis of rotation and appears nearly stationary in the night sky."
+    },
+    {
+      "id" : 26,
+      "name": "Uranus",
+      "category": "planet",
+      "image": "https://images.unsplash.com/photo-1614732484003-ef9881555dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXJhbnVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Uranus is the seventh planet from the Sun and is known for its unique feature: it rotates on its side. It is a gas giant similar in composition to Neptune and has a bluish-green appearance due to the presence of methane in its atmosphere. Uranus has a system of rings and numerous moons."
+    },
+    {
+      "id" : 27,
+      "name": "Horsehead Nebula",
+      "category": "nebula",
+      "image": "https://images.unsplash.com/photo-1605704311533-443f1f58874f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8SG9yc2VoZWFkJTIwTmVidWxhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "The Horsehead Nebula is a dark nebula located in the constellation Orion. It gets its name from its distinct shape, resembling the head of a horse. The nebula is a site of ongoing star formation and is illuminated by nearby bright stars."
+    },
+    {
+      "id" : 28,
+      "name": "Betelgeuse",
+      "category": "star",
+      "image": "https://images.unsplash.com/photo-1498611291069-aa296192f1e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fEJldGVsZ2V1c2UlMjBzdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Betelgeuse is a red supergiant star located in the constellation Orion. It is one of the largest known stars and is nearing the end of its life. Betelgeuse is known for its variability in brightness and is expected to explode as a supernova in the future."
+    },
+    {
+      "id" : 29,
+      "name": "Mercury",
+      "category": "planet",
+      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVyY3VyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Mercury is the smallest planet in our solar system and the closest to the Sun. It has a rocky surface and no substantial atmosphere. Due to its proximity to the Sun, Mercury experiences extreme temperature variations between its scorching dayside and freezing nights"
+    },
+    {
+      "id" : 30,
+      "name": "Alpha Centauri",
+      "category": "star",
+      "image": "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8QWxwaGElMjBDZW50YXVyaSUyMHN0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": "Alpha Centauri is a triple star system located about 4.37 light-years away from Earth, making it the closest star system to our solar system. It consists of three stars: Alpha Centauri A, Alpha Centauri B, and Proxima Centauri."
+    },
+    {
+      "id" : 31,
+      "name": "Neptune",
+      "category": "planet",
+      "image": "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmVwdHVuZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Neptune is the eighth and farthest known planet from the Sun in our solar system. It is a gas giant similar in composition to Uranus, and it has a deep blue color due to the presence of methane in its atmosphere. Neptune has a system of rings and a number of moons, including Triton."
+    },
+    {
+      "id" : 32,
+      "name": "Antennae Galaxies",
+      "category": "galaxy",
+      "image": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8QW50ZW5uYWUlMjBHYWxheGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "The Antennae Galaxies, also known as NGC 4038 and NGC 4039, are a pair of interacting galaxies located about 45 million light-years away. They are undergoing a galactic collision, resulting in distorted shapes and intense star formation."
+    },
+    {
+      "id" : 33,
+      "name": "Polaris",
+      "category": "star",
+      "image": "https://plus.unsplash.com/premium_photo-1673298489609-36cbdf46f686?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8UG9sYXJpcyUyMHN0YXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "description": "Polaris, also known as the North Star or Pole Star, is the brightest star in the constellation Ursa Minor. It is famous for being a reliable navigational aid, as it approximately aligns with the Earth's axis of rotation and appears nearly stationary in the night sky."
+    },
+    {
+      "id" : 34,
+      "name": "Uranus",
+      "category": "planet",
+      "image": "https://images.unsplash.com/photo-1614732484003-ef9881555dc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXJhbnVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Uranus is the seventh planet from the Sun and is known for its unique feature: it rotates on its side. It is a gas giant similar in composition to Neptune and has a bluish-green appearance due to the presence of methane in its atmosphere. Uranus has a system of rings and numerous moons."  
+    },
+    {
+      "id" : 35,
+      "name": "Horsehead Nebula",
+      "category": "nebula",
+      "image": "https://images.unsplash.com/photo-1605704311533-443f1f58874f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8SG9yc2VoZWFkJTIwTmVidWxhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "The Horsehead Nebula is a dark nebula located in the constellation Orion. It gets its name from its distinct shape, resembling the head of a horse. The nebula is a site of ongoing star formation and is illuminated by nearby bright stars."
+    },
+    {
+      "id" : 35,
+      "name": "Betelgeuse",
+      "category": "star",
+      "image": "https://images.unsplash.com/photo-1498611291069-aa296192f1e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fEJldGVsZ2V1c2UlMjBzdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Betelgeuse is a red supergiant star located in the constellation Orion. It is one of the largest known stars and is nearing the end of its life. Betelgeuse is known for its variability in brightness and is expected to explode as a supernova in the future."
+    },
+    {
+      "id" : 36,
+      "name": "Mercury",
+      "category": "planet",
+      "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVyY3VyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "Mercury is the smallest planet in our solar system and the closest to the Sun. It has a rocky surface and no substantial atmosphere. Due to its proximity to the Sun, Mercury experiences extreme temperature variations between its scorching dayside and freezing nights"
+    }
+]
